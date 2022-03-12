@@ -9,4 +9,5 @@ class TeSpider(scrapy.Spider):
     def parse(self, response):
         print(response.text)
         print('master')
+        print('hotfix')
 
