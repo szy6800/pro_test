@@ -11,4 +11,5 @@ class TeSpider(scrapy.Spider):
 
         print('测试上传')
         print("测试拉去")
+        print("啦啦啦啦")
 
