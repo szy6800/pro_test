@@ -10,4 +10,5 @@ class TeSpider(scrapy.Spider):
         print(response.text)
 
         print('测试上传')
+        print("测试拉去")
 
