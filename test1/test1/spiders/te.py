@@ -8,5 +8,5 @@ class TeSpider(scrapy.Spider):
 
     def parse(self, response):
         print(response.text)
-        print('主分支处理 master')
+        print('分支修改冲突')
 
