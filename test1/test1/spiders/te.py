@@ -4,13 +4,9 @@ import scrapy
 class TeSpider(scrapy.Spider):
     name = 'te'
     allowed_domains = ['baidu.com']
-    start_urls = ['http://baidu.com/']
+    start_urls = ['https://www.zhipin.com/c101010100/?query=%E7%88%AC%E8%99%AB&page=4&ka=page-4']
 
     def parse(self, response):
         print(response.text)
 
-        print('测试上传')
-        print("测试拉去")
-        print("啦啦啦啦")
-        print("特使")
 
