@@ -2,6 +2,7 @@ import scrapy
 from scrapy.http import HtmlResponse
 import jsonpath,json
 # https://www.bilibili.com/video/BV1KJ41127MX?p=5
+#访问
 class TeSpider(scrapy.Spider):
     name = 'te'
     allowed_domains = ['baidu.com']
