@@ -10,4 +10,4 @@ from itemadapter import ItemAdapter
 
 class Test1Pipeline:
     def process_item(self, item, spider):
-        return item
+        print('==='*50, item)
