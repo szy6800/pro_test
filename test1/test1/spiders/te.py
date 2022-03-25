@@ -15,6 +15,7 @@ class TeSpider(scrapy.Spider):
         options.add_argument('headless')
         self.driver = webdriver.Chrome(options=options)
 
+
     def close(self, spider):
         self.driver.quit()
         print('selenium 关闭')

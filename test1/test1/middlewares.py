@@ -91,7 +91,6 @@ class Test1DownloaderMiddleware:
         driver = spider.driver
         driver.get(request.url)
         text = driver.page_source
-
         return HtmlResponse(url=request.url, body=text, request=request, status=200,
                             encoding='utf-8')
 
